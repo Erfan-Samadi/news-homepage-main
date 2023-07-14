@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="coder" content="Erfan Samadi">
+
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | News homepage</title>
+  <!--JavaScript link is below the footer-->
+
+</head>
+<body>
+
+  <header>
+
+    <div class="container">
+      <a role="link" href="#"><img src="/assets/images/logo.svg" alt="site logo" class="logo" /></a>
+      <nav >
+        <ul class="navigation" id="navigation" role="list" aria-label="navigation-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">New</a></li>
+          <li><a href="#">Popular</a></li>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">Categories</a></li>
+        </ul>
+      </nav>
+      <div class="navigation-button" id="navigation-button">
+        <button id="open-button" class="nav-button" type="button">
+          <img src="assets/images/icon-menu.svg" alt="">
+        </button>
+      </div>
+      
+      <div class="mobile-navigation-container" id="navigation-container">
+        <button id="close-button" class="nav-button close">
+          <img src="assets/images/icon-menu-close.svg" alt="">
+        </button>
+        <nav >
+          <ul role="list" class="mobile-navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">New</a></li>
+            <li><a href="#">Popular</a></li>
+            <li><a href="#">Trending</a></li>
+            <li><a href="#">Categories</a></li>
+          </ul>
+        </nav>
+      </div>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+
+    <section class="first-section-container">
+
+      <img src="/assets/images/image-web-3-desktop.jpg" alt="gaming" >
+
+      <div class="new-container">
+        <h2 class="h2">New</h2>
+        <div class="new-childs">
+          <h3 ><a href="#" class="new-title">Hydrogen VS Electric Cars</a></h3>
+          <p class="new-p">Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </div>
+
+        <hr class="new-divider">
+
+        <div class="newchilds">
+          <h3><a href="#" class="new-title">The Downsides of AI Aristry</a></h3>
+          <p class="new-p">What are the possible adverse effects of on-demand AI image generation?</p>
+        </div>
+
+        <hr class="new-divider">
+
+        <div class="new-childs">
+          <h3><a href="#" class="new-title">Is VC Funding Dying Up?</a></h3>
+          <p class="new-p">Private funding by VC firms id down 50% YOY. We take a look at what that means.</p>
+        </div>
+      </div>
+
+      <div class="article">
+        <h1 class="h1">The Bright Future of Web 3.0?</h1>
+        <p class="p">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the prople. But is it really fulfilling its promise?</p>
+        <button class="button">READ MORE</button>
+      </div>
+
+    </section>
+    
+    <section class="second-section-container">
+
+      <div class="other-article">
+        <img class="other-article-picture" src="assets/images/image-retro-pcs.jpg" alt="Retro PC">
+        <label class="other-article-number">01</label>
+        <h3><a href="#" class="other-article-a">Reviving Retro PCs</a></h3>
+        <p class="p">What happens when old PCs are given modern updates?</p>
+      </div>
+
+      <div class="other-article">
+        <img class="other-article-picture" src="assets/images/image-top-laptops.jpg" alt="Top Laptops">
+        <label class="other-article-number">02</label>
+        <h3><a href="#" class="other-article-a">Top 10 Laptops of 2022</a></h3>
+        <p class="p">Our best picks for various needs and budgets.</p>
+      </div>
+
+      <div class="other-article">
+        <img class="other-article-picture" src="assets/images/image-gaming-growth.jpg" alt="gaming growth">
+        <label class="other-article-number">03</label>
+        <h3><a href="#" class="other-article-a">The Growth of Gaming</a></h3>
+        <p class="p">How the pandemic has sparked fresh opportunities.</p>
+      </div>
+
+    </section>
+
+  </main>
+  <footer class="footer">
+    <div class="attribution">
+      Challenge by <a role="link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a role="link" href="https://erfansamadi.com/" target="_blank">Erfan Samadi</a>.
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+
+</body>
+</html>
